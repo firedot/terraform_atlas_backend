@@ -41,17 +41,10 @@ terraform init
 
 
 ```
-# This command will provision your configuration
+# This command will provision your configuration and will upload your updated terraform.tfstate file
+# to your centralised storage
 
 terraform apply
-
-```
-
-```
-# By running terraform init again, the updated terraform.tfstate will be uploaded 
-# to the centralised storage
-
-terraform init
 
 ```
 

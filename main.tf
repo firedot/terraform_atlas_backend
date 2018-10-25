@@ -1,7 +1,7 @@
 
 terraform {
 backend "atlas" {
-name = "121/terraform_atlas_backend"
+name = "firedot/terraform_atlas_backend"
 }
 }
 resource "null_resource" "helloWorld" {
